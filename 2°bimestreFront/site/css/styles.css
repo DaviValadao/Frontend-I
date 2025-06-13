@@ -17,6 +17,36 @@ footer {
     margin-left: 10px;
 }
 
+table{
+    border-collapse: collapse;
+}
+
+th{
+    background-color: green;
+}
+
+td {
+    background-color: aliceblue;
+}
+
+td,th {
+    border: 2px solid;
+    padding: 2px;
+
+}
+
+fieldset {
+    width: 50vw;
+    color: rgb(0, 0, 0);
+    border: 1px solid white;
+    padding: 10px;
+    margin: 20px;
+}
+
+fieldset label {
+    font-weight: normal;
+}
+
 @media screen and (orientation: landscape){ /* Regra para janelas paisagem */
     .paisagem, .retrato{
         display: none;
